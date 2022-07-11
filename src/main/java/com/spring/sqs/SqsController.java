@@ -22,14 +22,6 @@ import java.util.List;
 @RestController
 public class SqsController {
 
-    public static final String QUEUE_PREFIX = "MySpringAwsSQS-";
-
-    @Autowired
-    private SqsClient sqsClient;
-
-    @Autowired
-    private ObjectMapper objectMapper;
-
     @Autowired
     private SqsService sqsService;
 
