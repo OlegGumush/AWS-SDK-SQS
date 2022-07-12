@@ -11,10 +11,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com-spring-sqs</groupId>
-    <artifactId>com.spring.sqs</artifactId>
+    <groupId>com-aws-sdk-sqs</groupId>
+    <artifactId>com.aws.sdk.sqs</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>SpringSQS</name>
+    <name>AWS-SDK-SQS</name>
 
     <properties>
         <java.version>11</java.version>

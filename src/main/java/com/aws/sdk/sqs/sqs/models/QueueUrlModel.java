@@ -1,4 +1,4 @@
-package com.spring.sqs.models;
+package com.aws.sdk.sqs.sqs.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

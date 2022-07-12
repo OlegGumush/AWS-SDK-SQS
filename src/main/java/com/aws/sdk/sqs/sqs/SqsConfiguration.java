@@ -1,4 +1,4 @@
-package com.spring.sqs;
+package com.aws.sdk.sqs.sqs;
 
 import org.springframework.beans.factory.InjectionPoint;
 import org.springframework.context.annotation.Bean;

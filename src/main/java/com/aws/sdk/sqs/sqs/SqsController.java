@@ -1,10 +1,9 @@
-package com.spring.sqs;
+package com.aws.sdk.sqs.sqs;
 
+import com.aws.sdk.sqs.sqs.models.QueueNameModel;
+import com.aws.sdk.sqs.sqs.models.QueueUrlModel;
+import com.aws.sdk.sqs.sqs.models.SendMessageModel;
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.spring.sqs.models.QueueNameModel;
-import com.spring.sqs.models.QueueUrlModel;
-import com.spring.sqs.models.SendMessageModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import software.amazon.awssdk.services.sqs.SqsClient;
 import software.amazon.awssdk.services.sqs.model.CreateQueueResponse;
 import software.amazon.awssdk.services.sqs.model.GetQueueUrlResponse;
 

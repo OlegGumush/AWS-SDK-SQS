@@ -1,4 +1,4 @@
-package com.spring.sqs.policy;
+package com.aws.sdk.sqs.sqs.policy;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

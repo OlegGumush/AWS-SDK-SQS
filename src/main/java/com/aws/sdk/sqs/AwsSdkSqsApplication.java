@@ -1,4 +1,4 @@
-package com.spring;
+package com.aws.sdk.sqs;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @Slf4j
 @SpringBootApplication
-public class SpringSqsApplication {
+public class AwsSdkSqsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringSqsApplication.class, args);
+        SpringApplication.run(AwsSdkSqsApplication.class, args);
         log.info("Up ....");
     }
 }
